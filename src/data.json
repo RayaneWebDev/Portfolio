@@ -1,0 +1,47 @@
+{
+    "projects" : [
+
+        {
+            "name" : "Space Exploration",
+            "description" : "This is a static space exploration website, with a modern design and a high quality implementation using html5 , tailwind css and React ",
+            "github" : "https://github.com/RayaneTch/space-project.git",
+            "images" : [ "/src/assets/images/space1.png" , "/src/assets/images/space2.png" , "/src/assets/images/space3.png" , "/src/assets/images/space4.png"]
+             
+        } ,
+
+        {
+            "name" : "Netflix Clone",
+            "description" : "A cloned netflix website using React js and firebase, a dynamic and modern website which implements not only my qualities in the frontend but also those of the backend",
+            "github" : "https://github.com/RayaneTch/Netflix-Clone.git",
+            "images" : [ "/src/assets/images/netflix1.png" , "/src/assets/images/netflix2.png" , "/src/assets/images/netflix3.png"]
+            
+        } ,
+
+        {
+            "name" : "AI Startup",
+            "description" : "A modern website for an AI Startup , introducing the services and the benefits of using the tool, which requires a pro level of mastery in html and css",
+            "github" : "https://github.com/RayaneWebDev/AI-Startup.git",
+            "images" : [ "/src/assets/images/aiStartup1.png" , "/src/assets/images/aiStartup2.png" , "/src/assets/images/aiStartup3.png" , "/src/assets/images/aiStartup4.png" , "/src/assets/images/aiStartup5.png" ,"/src/assets/images/aiStartup6.png"]
+            
+        },
+
+        {
+            "name" : "Ecommerce Website",
+            "description" : "This is an e-commerce website featuring a diverse selection of high-quality products, including electronics, fashion, and home goods. Designed with a user-friendly interface, it ensures easy navigation and a smooth shopping experience, allowing customers to browse and find their desired items effortlessly. Enjoy fast shipping and reliable customer support to assist you along the way, maded using tailwind and express js.",
+            "github" : "https://github.com/RayaneWebDev/Ecommerce-Website.git",
+            "images" : [ "/src/assets/images/ecom1.png" , "/src/assets/images/ecom2.png" , "/src/assets/images/ecom3.png" , "/src/assets/images/ecom4.png"]
+            
+        },
+
+        {
+            "name" : "Snap Agency",
+            "description" : "This is a creative agency website with a visually appealing design and a clear message. It highlights their services and showcases their work through high-quality images and a client testimonial, created using html5 and css3 and" ,
+            "github" : "https://github.com/RayaneTch/FrontEnd-sunnySide-Agency.git",
+            "images" : [ "/src/assets/images/snapAgency1.png" , "/src/assets/images/snapAgency2.png" , "/src/assets/images/snapAgency3.png" ]
+            
+        }
+
+
+
+    ]
+}

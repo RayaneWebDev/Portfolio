@@ -1,0 +1,199 @@
+.logo, .name-portfolio, .futureCrafted-active, .myAdvantages, .whyHireMe , .contact{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.menu {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.menu-active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.futureCrafted {
+    color: transparent; 
+    -webkit-text-stroke: 1px rgb(235, 229, 229); 
+}
+
+.octagon-container {
+position: relative;
+width: 200px;
+height: 200px;
+margin: 100px auto;
+overflow: visible; /* Ensure overflow is visible */
+}
+
+.octagon-wrapper {
+position: absolute;
+width: 100%;
+height: 100%;
+clip-path: polygon(30% 0, 70% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0 70%, 0 30%);
+background-color: #0723B8;
+z-index: 1; /* Ensure octagon is below the icons */
+}
+
+.octagon-icons {
+position: absolute;
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.icon {
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+transform-origin: center;
+}
+
+/* Positioning icons on a circle */
+.icon1 {  transform: rotate(0deg)   translateX(60px) translateY(-130px) rotate(0deg); }
+.icon2 {  transform: rotate(45deg)  translateX(60px) translateY(-130px) rotate(-45deg); }
+.icon3 {  transform: rotate(90deg)  translateX(60px) translateY(-130px) rotate(-90deg); }
+.icon4 {  transform: rotate(135deg) translateX(60px)  translateY(-130px) rotate(-135deg); }
+.icon5 {  transform: rotate(180deg) translateX(60px)  translateY(-130px) rotate(-180deg); }
+.icon6 {  transform: rotate(225deg) translateX(60px)  translateY(-130px) rotate(-225deg); }
+.icon7 {  transform: rotate(270deg) translateX(60px)  translateY(-130px) rotate(-270deg); }
+.icon8 {  transform: rotate(315deg) translateX(60px)  translateY(-130px) rotate(-315deg); }
+
+/* Rotation animation */
+.octagon-container {
+animation: rotate 30s infinite linear;
+}
+@keyframes rotate {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+
+.icon img {
+display: block;
+}
+
+.icon div{
+display: flex;
+}
+.icon p {
+display: none;
+}
+
+.icon:hover img {
+display: none;
+}
+
+.icon:hover div {
+display: none;
+}
+
+.icon:hover p {
+display: block;
+}
+
+
+/* Styles for the overlay */
+
+
+/* Hidden by default */
+.hidden {
+display: none;
+}
+
+/* Pop-up container */
+#popup {
+background-color: white;
+padding: 2rem;
+border-radius: 10px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+width: 90%;
+animation: popup-fade-in 0.3s ease-out;
+}
+
+/* Pop-up open animation */
+@keyframes popup-fade-in {
+from {
+opacity: 0;
+transform: scale(0.95);
+}
+to {
+opacity: 1;
+transform: scale(1);
+}
+}
+
+/* Close button */
+#close-popup {
+background-color: #e53e3e; /* Red color */
+color: white;
+padding: 0.5rem 1rem;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.2s ease;
+}
+
+#close-popup:hover {
+background-color: #c53030;
+}
+
+
+@media screen and (min-width : 900px) {
+
+.octagon-container {
+position: relative;
+width: 400px;
+height: 400px;
+margin: 150px auto;
+overflow: visible; /* Ensure overflow is visible */
+}
+
+.octagon-wrapper {
+position: absolute;
+width: 100%;
+height: 100%;
+clip-path: polygon(30% 0, 70% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0 70%, 0 30%);
+background-color: #0723B8;
+z-index: 1; /* Ensure octagon is below the icons */
+}
+
+.octagon-icons {
+position: absolute;
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.icon {
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+transform-origin: center;
+}
+
+/* Positioning icons on a circle */
+.icon1 {  transform: rotate(0deg)   translateX(250px) translateY(-100px) rotate(0deg); }
+.icon2 {  transform: rotate(45deg)  translateX(250px) translateY(-100px) rotate(-45deg); }
+.icon3 {  transform: rotate(90deg)  translateX(250px) translateY(-100px) rotate(-90deg); }
+.icon4 {  transform: rotate(135deg) translateX(250px)  translateY(-100px) rotate(-135deg); }
+.icon5 {  transform: rotate(180deg) translateX(250px)  translateY(-100px) rotate(-180deg); }
+.icon6 {  transform: rotate(225deg) translateX(250px)  translateY(-100px) rotate(-225deg); }
+.icon7 {  transform: rotate(270deg) translateX(250px)  translateY(-100px) rotate(-270deg); }
+.icon8 {  transform: rotate(315deg) translateX(250px)  translateY(-100px) rotate(-315deg); }
+
+}
+
+
+html {
+    scroll-behavior: smooth;
+}

@@ -8,7 +8,7 @@ const Hero = () => {
             <img src={ProfileImg} alt="profileImg" className="object-cover lg:w-[70%] w-[85%] h-auto lg:-translate-y-20" />
         </div>*/}  
 
-        <div className='w-[100px] h-[100px] lg:h-[500px] lg:w-[500px] relative rounded-[50%] border-solid border-[3px] bg-logo-gradient mx-12 -translate-y-10'>
+        <div className='w-[200px] h-[200px] md:w-[400px] md:h-[400px] lg:h-[500px] lg:w-[500px] relative rounded-[50%] border-solid border-[3px] bg-logo-gradient lg:mx-12 -translate-y-10 mx-auto'>
 
             <img src='/assets/images/profilImg.jpg' className='w-full h-full rounded-[50%] absolute object-cover '></img>
         </div>

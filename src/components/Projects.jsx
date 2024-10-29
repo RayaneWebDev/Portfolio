@@ -32,7 +32,7 @@ const handleOpenProjectDetails = (project) => {
 
   useEffect(() => {
     // Fetch the JSON data
-    fetch('/src/data.json')
+    fetch('/data.json')
       .then((response) => response.json())
       .then((data) => setProjects(data.projects))
       .catch((error) => console.error('Error fetching data:', error));

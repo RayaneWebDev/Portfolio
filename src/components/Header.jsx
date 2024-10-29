@@ -32,10 +32,10 @@ const Header = () => {
     <div className={`${menuOpen ? 'menu-active' : 'menu'} fixed bg-blue-500 right-0 top-0 w-52 pl-8 bottom-0 z-50 flex-col space-y-16 transition-transform duration-[2000ms]`}>
        <img src={CloseIcon} className="close w-6 cursor-pointer ml-32 mt-7" onClick={handleMenuClose} />
         <nav className="flex flex-col space-y-10 font-martianMono">
-            <ScrollLink to="home" className="text-white text-lg font-extralight">Home</ScrollLink>
-            <ScrollLink to="services" className="text-white text-lg font-extralight">Services</ScrollLink>
-            <ScrollLink to="projects" className="text-white text-lg font-extralight">Projects</ScrollLink>
-            <ScrollLink to="contact" className="text-white text-lg font-extralight">Contact</ScrollLink>
+            <ScrollLink onClick={handleMenuClose} to="home" className="text-white text-lg font-extralight">Home</ScrollLink>
+            <ScrollLink onClick={handleMenuClose} to="services" className="text-white text-lg font-extralight">Services</ScrollLink>
+            <ScrollLink onClick={handleMenuClose} to="projects" className="text-white text-lg font-extralight">Projects</ScrollLink>
+            <ScrollLink onClick={handleMenuClose} to="contact" className="text-white text-lg font-extralight">Contact</ScrollLink>
         </nav>
     </div>
 </header>

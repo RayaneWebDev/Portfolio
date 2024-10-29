@@ -4,8 +4,13 @@ import DownloadIcon from '../assets/icons/download.svg'
 const Hero = () => {
   return (
     <section id='home' className="hero flex flex-col lg:flex-row pt-24 lg:pt-36 px-8 items-start gap-16 lg:gap-28">
-        <div className="w-full lg:w-1/2 flex justify-center">
+      {/* <div className="w-full lg:w-1/2 flex justify-center">
             <img src={ProfileImg} alt="profileImg" className="object-cover lg:w-[70%] w-[85%] h-auto lg:-translate-y-20" />
+        </div>*/}  
+
+        <div className='w-[100px] h-[100px] lg:h-[500px] lg:w-[500px] relative rounded-[50%] border-solid border-[3px] bg-logo-gradient mx-12 -translate-y-10'>
+
+            <img src='/assets/images/profilImg.jpg' className='w-full h-full rounded-[50%] absolute object-cover '></img>
         </div>
         
         <div className="w-full lg:w-1/2 flex flex-col justify-center gap-7 text-center lg:text-start items-center lg:items-start">
@@ -15,7 +20,7 @@ const Hero = () => {
 
             <div className="download border rounded-[14px] border-white p-3">
             <a 
-            href={'/src/assets/CV final.pdf'} 
+            href={'/assets/CV final.pdf'} 
             download="Rayane_Taouache_CV.pdf" 
             className="bg-cv-button p-3 lg:px-5 lg:py-4 rounded-[14px] flex items-center gap-2 text-white shadow-inner-custom backdrop-blur-[14px] hover:shadow-blue-700 hover:drop-shadow-xl"
         >

@@ -1,6 +1,15 @@
 {
     "projects" : [
 
+
+        {
+            "name" : "Food Delivery",
+            "description" : "This is a full stack food delivery website, with a modern UI/UX Design and a complete backend implementation such as authentication, google authentication, menu ordering and cart, stripe payment, admin dashboard... i used a MERN Stack development and for more details please check my linkedin or contact me ",
+            "github" : "Please Contact Me",
+            "images" : [ "/assets/images/tomato1.png" , "/assets/images/tomato2.png" , "/assets/images/tomato3.png" , "/assets/images/tomato4.png", "/assets/images/tomato5.png"]
+             
+        } ,
+
         {
             "name" : "Space Exploration",
             "description" : "This is a static space exploration website, with a modern design and a high quality implementation using html5 , tailwind css and React ",
@@ -31,16 +40,7 @@
             "github" : "https://github.com/RayaneWebDev/Ecommerce-Website.git",
             "images" : [ "/assets/images/ecom1.png" , "/assets/images/ecom2.png" , "/assets/images/ecom3.png" , "/assets/images/ecom4.png"]
             
-        },
-
-        {
-            "name" : "Snap Agency",
-            "description" : "This is a creative agency website with a visually appealing design and a clear message. It highlights their services and showcases their work through high-quality images and a client testimonial, created using html5 and css3 and" ,
-            "github" : "https://github.com/RayaneTch/FrontEnd-sunnySide-Agency.git",
-            "images" : [ "/assets/images/snapAgency1.png" , "/assets/images/snapAgency2.png" , "/assets/images/snapAgency3.png" ]
-            
         }
-
 
 
     ]

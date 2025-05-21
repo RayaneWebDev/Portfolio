@@ -20,7 +20,7 @@ const Hero = () => {
 
             <div className="download border rounded-[14px] border-white p-3">
             <a 
-            href={'/assets/cv_fullstack_version_finale.pdf'} 
+            href={'/assets/cv_fullstack_miage.pdf'} 
             download="Rayane_Taouache_CV.pdf" 
             className="bg-cv-button p-3 lg:px-5 lg:py-4 rounded-[14px] flex items-center gap-2 text-white shadow-inner-custom backdrop-blur-[14px] hover:shadow-blue-700 hover:drop-shadow-xl"
         >
